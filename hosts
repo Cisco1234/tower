@@ -78,11 +78,8 @@ gaurav-master3-okd.pc2vvxrg2peuznb1ixsccmkpdf.rx.internal.cloudapp.net
 # host group for nodes, includes region info
 [nodes]
 gaurav-master[1:3]-okd.pc2vvxrg2peuznb1ixsccmkpdf.rx.internal.cloudapp.net openshift_node_group_name='node-config-master'
-#gaurav-master2-okd.pc2vvxrg2peuznb1ixsccmkpdf.rx.internal.cloudapp.net openshift_node_group_name='node-config-master'
-#gaurav-master3-okd.pc2vvxrg2peuznb1ixsccmkpdf.rx.internal.cloudapp.net openshift_node_group_name='node-config-master'
+
 
 gaurav-node[4:5]-okd.pc2vvxrg2peuznb1ixsccmkpdf.rx.internal.cloudapp.net openshift_node_group_name='node-config-compute'
-#gaurav-node5-okd.pc2vvxrg2peuznb1ixsccmkpdf.rx.internal.cloudapp.net openshift_node_group_name='node-config-infra'
-
 gaurav-infra[1:2]-okd.pc2vvxrg2peuznb1ixsccmkpdf.rx.internal.cloudapp.net openshift_node_group_name='node-config-infra'
 gaurav-node7-okd.pc2vvxrg2peuznb1ixsccmkpdf.rx.internal.cloudapp.net openshift_node_group_name='node-config-compute'
