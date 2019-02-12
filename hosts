@@ -3,7 +3,7 @@
 masters
 nodes
 etcd
-new_nodes
+
 
 # Set variables common for all OSEv3 hosts
 [OSEv3:vars]
@@ -85,7 +85,4 @@ gaurav-node[4:5]-okd.pc2vvxrg2peuznb1ixsccmkpdf.rx.internal.cloudapp.net openshi
 #gaurav-node5-okd.pc2vvxrg2peuznb1ixsccmkpdf.rx.internal.cloudapp.net openshift_node_group_name='node-config-infra'
 
 gaurav-infra[1:2]-okd.pc2vvxrg2peuznb1ixsccmkpdf.rx.internal.cloudapp.net openshift_node_group_name='node-config-infra'
-
-
-[new_nodes]
 gaurav-node7-okd.pc2vvxrg2peuznb1ixsccmkpdf.rx.internal.cloudapp.net openshift_node_group_name='node-config-compute'
